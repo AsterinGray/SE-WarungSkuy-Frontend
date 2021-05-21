@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: roboto;
+}
+
+.auth {
+  min-height: 100vh;
+}
+
+.main {
+  background-color: #3b5670;
+  padding: 5rem;
+}
+
+.logo {
+  color: #fbeeac;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.logo div {
+  margin: 0 1rem;
+}
+
+.main .card {
+  border: 12px solid #f4d160;
+  border-radius: 32px;
+  padding: 2rem 20%;
+}
+
+.card-title {
+  font-size: 3rem;
+  color: #f4d160;
+  font-weight: bold;
+}
+
+.main .btn {
+  background: #f4d160;
+  border-radius: 25px;
+  color: #28527a;
+  font-size: 1.5rem;
+  width: 10rem;
+  height: 3rem;
+  font-weight: bold;
+  margin-top: 3rem;
+}
+
+.main form {
+  height: 100%;
+  margin: 3rem 0;
+}
+
+.form-group {
+  margin-top: 2rem;
+}
+
+.form-control {
+  border: none;
+  border-bottom: 2px solid black;
+  border-radius: 0;
+}
+
+.form-control:focus {
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #28527a;
+  box-shadow: none;
+}
+
+.aside {
+  background: url('../assets/images/pages/auth/background.png') no-repeat;
+  background-size: cover;
+}
