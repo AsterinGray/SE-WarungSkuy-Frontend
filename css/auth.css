@@ -6,6 +6,14 @@ body {
   font-family: roboto;
 }
 
+header {
+  background-color: #28527a;
+}
+
+header img {
+  width: 3rem;
+}
+
 .auth {
   min-height: 100vh;
 }
@@ -33,11 +41,11 @@ body {
 
 .card-title {
   font-size: 3rem;
-  color: #f4d160;
+  color: #28527a;
   font-weight: bold;
 }
 
-.main .btn {
+.btn {
   background: #f4d160;
   border-radius: 25px;
   color: #28527a;
@@ -73,4 +81,57 @@ body {
 .aside {
   background: url('../assets/images/pages/auth/background.png') no-repeat;
   background-size: cover;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 34px;
+}
+
+.slider:before {
+  position: absolute;
+  content: '';
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #2196f3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
 }

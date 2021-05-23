@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="../../assets/libraries/bootstrap/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="../../css/auth.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container py-3">
+        <div class="logo">
+          <img src="../../assets/images/common/logo.png" alt="" />
+          <span>Warung Skuy</span>
+        </div>
+      </div>
+    </header>
+    <main class="auth container d-flex align-items-center flex-column">
+      <h1 class="card-title py-3">DAFTAR</h1>
+      <form action="" class="w-100">
+        <div class="text-center">
+          <input type="radio" name="type" id="investor" />
+          <label for="investor">Investor</label>
+          <input type="radio" name="type" id="peminjam" />
+          <label for="peminjam">Peminjam</label>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-md-12">
+            <div class="form-group">
+              <label for="username">Username</label>
+              <input type="text" class="form-control" id="username" />
+              <div class="invalid-feedback"></div>
+            </div>
+            <div class="form-group">
+              <label for="nama">Nama Lengkap</label>
+              <input type="text" class="form-control" id="nama" />
+              <div class="invalid-feedback"></div>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" id="email" />
+              <div class="invalid-feedback"></div>
+            </div>
+            <div class="form-group">
+              <label for="telp">Nomor Telepon</label>
+              <input type="tel" class="form-control" id="telp" />
+              <div class="invalid-feedback"></div>
+            </div>
+            <div class="form-group">
+              <label for="NIK">NIK</label>
+              <input type="tel" class="form-control" id="NIK" />
+              <div class="invalid-feedback"></div>
+            </div>
+            <div class="form-group">
+              <label for="pass">Kata Sandi</label>
+              <input type="password" class="form-control" id="pass" />
+              <div class="invalid-feedback"></div>
+            </div>
+            <div class="form-group">
+              <label for="confirm">Ulangi Kata Sandi</label>
+              <input type="password" class="form-control" id="confirm" />
+              <div class="invalid-feedback"></div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12">
+            <div class="form-group">
+              <label for="alamat">Alamat</label>
+              <input type="text" class="form-control" id="alamat" />
+              <div class="invalid-feedback"></div>
+            </div>
+            <div class="form-group">
+              <label for="tempat-lahir">Tempat Lahir</label>
+              <input type="text" class="form-control" id="tempat-lahir" />
+              <div class="invalid-feedback"></div>
+            </div>
+            <div class="form-group">
+              <label for="tanggal-lahir">Tanggal Lahir</label>
+              <input type="date" class="form-control" id="tanggal-lahir" />
+              <div class="invalid-feedback"></div>
+            </div>
+            <div class="form-group">
+              <label for="jenis-kelamin">Jenis Kelamin</label>
+              <select id="jenis-kelamin" class="form-control">
+                <option selected disabled>Pilih</option>
+                <option value="Laki-laki">Laki-laki</option>
+                <option value="Perempuan">Perempuan</option>
+              </select>
+              <div class="invalid-feedback"></div>
+            </div>
+            <div class="form-group">
+              <label for="bank">Bank</label>
+              <input type="text" class="form-control" id="bank" />
+              <div class="invalid-feedback"></div>
+            </div>
+            <div class="form-group">
+              <label for="norek">Nomor Rekening</label>
+              <input type="number" class="form-control" id="norek" />
+              <div class="invalid-feedback"></div>
+            </div>
+            <div class="form-group">
+              <label for="pemilik">Nama Pemilik Rekening</label>
+              <input type="text" class="form-control" id="pemilik" />
+              <div class="invalid-feedback"></div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center mt-2">
+          <input type="checkbox" name="" id="agree" />
+          <label for="agree">Setejui untuk bergabung</label>
+        </div>
+        <div class="text-center">
+          <button class="btn mb-5" type="submit">Masuk</button>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
