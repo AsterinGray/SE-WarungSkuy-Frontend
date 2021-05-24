@@ -4,3 +4,51 @@ body {
   padding: 0;
   font-family: Roboto;
 }
+
+#bright-yellow-color {
+  color: #FBEEAC;
+}
+
+#background-blue {
+  background-color: #28527A;
+}
+
+.navbar {
+  padding: 1rem 2rem;
+}
+
+.navbar-brand {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.nav-item {
+  padding: 0rem 1rem;
+}
+
+.nav-link {
+  color: #FBEEAC;
+}
+
+.btn-secondary {
+  background-color: #8AC4D0;
+  color: black;
+  border-radius: 1rem;
+  margin: 0rem 1rem;
+  width: 5rem;
+  font-weight: bold;
+}
+
+.btn-secondary:hover {
+  background-color: #487f8a;
+  color: white;
+}
+
+.banner {
+  position: relative;
+  background-image: url("../assets/images/pages/home/Home_Yellow_Background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
