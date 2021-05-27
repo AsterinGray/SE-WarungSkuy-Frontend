@@ -72,3 +72,18 @@ body {
 .copyright {
   font-size: small;
 }
+
+@media all and (max-width: 575.98px) {
+  .fa img {
+    width: 30px;
+  }
+
+  .fa-text {
+    padding: 0.5rem 0.1rem;
+    font-size: 10px;
+  }
+
+  .copyright {
+    font-size: 7px;
+  }
+}
