@@ -5,6 +5,21 @@ body {
   font-family: Roboto;
 }
 
+/* common */
+.container-title {
+  font-size: 50px;
+  text-align: center;
+}
+
+@media all and (max-width: 575.98px) {
+  .container-title {
+    font-size: 26px;
+    text-align: center;
+  }
+}
+
+
+
 /* Navbar */
 .bg-dark {
   background-color: #28527A !important;
@@ -95,8 +110,102 @@ body {
   background-color: #537CD9;
 }
 
+@media all and (max-width: 575.98px) {
+  
+  .banner {
+    min-height: 30rem;
+    padding: 2rem 2rem;
+  }
+  
+  .banner-title {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: left;
+  }
+  
+  .banner-text {
+    font-size: 15px;
+    padding: 1rem 0rem;
+    display: flex;
+    text-align: left;
+  }
+  
+  .btn-text {
+    font-size: 15px;
+    display: flex;
+    text-align: left;
+  }
+  
+  .left-part {
+    padding: 1rem 10rem;
+  }
+  
+  .chart-1 img {
+    width: 15rem;
+  }
+  
+  .btn-primary-1 {
+    background-color: #28527A;
+    border-radius: 2rem;
+    padding: 0.5rem 2rem;
+  }
+}
 
 
+
+/* Founder */
+.founder {
+  padding: 6rem 6rem;
+}
+
+.container-founder {
+  padding: 3rem 1rem;
+}
+
+.founder-name {
+  margin-top: 2rem;
+  padding: 1rem 0rem;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.founder-position {
+  font-size: 23px;
+}
+
+.founder-image img {
+  width: 20rem;
+}
+
+.founder-image img:hover {
+  opacity: 90%;
+  transform: scale(1.2);
+}
+
+@media all and (max-width: 575.98px) {
+  .founder {
+    padding: 3rem 1rem;
+  }
+  
+  .container-founder {
+    padding: 1.2rem 0.5rem;
+  }
+  
+  .founder-name {
+    margin-top: 1rem;
+    padding: 0rem 0rem;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+  .founder-position {
+    font-size: 14px;
+  }
+  
+  .founder-image img {
+    width: 7rem;
+  }
+}
 
 
 /* Footer */
