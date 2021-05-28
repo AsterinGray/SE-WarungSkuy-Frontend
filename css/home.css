@@ -151,8 +151,6 @@ body {
   }
 }
 
-
-
 /* Founder */
 .founder {
   padding: 6rem 6rem;
@@ -242,7 +240,68 @@ body {
   }
   
   .tabs-image img {
-    width: 100%;
+    padding-top: 1rem;
+    width: 50%;
+    
+  }
+}
+
+/* Indonesia */
+.indonesia {
+  padding: 6rem 2rem;
+}
+
+@media all and (max-width: 575.98px){
+  .indonesia {
+    padding: 3rem 1rem;
+  }
+}
+
+/* Testimoni */
+.testimoni {
+  padding: 6rem 3rem;
+  background-color: #F5F5F5;
+}
+
+.testimoni-area {
+  padding-bottom: 3rem;
+}
+
+.testimoni-subtitle {
+  margin-bottom: 4rem;
+}
+
+.testimoni-image img {
+  width: 77%;
+}
+
+.testimoni-image img:hover {
+  transform: scale(1.2);
+  background-image: linear-gradient(#F5F5F5, #E5E5E5);
+  border-radius: 2rem;
+  padding: 2rem 1rem;
+}
+
+
+@media all and (max-width: 575.98px){
+  .testimoni {
+    padding: 3rem 1rem;
+  }
+  
+  .container-testimoni {
+    padding: 1.2rem 0.5rem;
+  }
+
+  .testimoni-area {
+    padding-bottom: 0rem;
+  }
+
+  .testimoni-subtitle {
+    font-size: small;
+  }
+
+  .testimoni-subtitle {
+    margin-bottom: 2rem;
   }
 }
 
