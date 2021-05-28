@@ -5,6 +5,7 @@ body {
   font-family: Roboto;
 }
 
+/* Navbar */
 .bg-dark {
   background-color: #28527A !important;
 }
@@ -48,6 +49,57 @@ body {
   background-color: #487f8a;
 }
 
+/* Banner */
+.banner {
+  background-image: url("../assets/images/pages/home/Home_Yellow_Background.png");
+  min-height: 50rem;
+  background-size: cover;
+  background-position: center;
+  padding: 6rem 6rem;
+}
+
+.banner-title {
+  font-weight: bold;
+  font-size: 60px;
+  text-align: left;
+}
+
+.banner-text {
+  font-size: 26px;
+  padding: 2rem 0rem;
+  display: flex;
+  text-align: left;
+}
+
+.btn-text {
+  font-size: 26px;
+  display: flex;
+  text-align: left;
+}
+
+.left-part {
+  padding: 2rem 10rem;
+}
+
+.chart-1 img {
+  width: 30rem;
+}
+
+.btn-primary-1 {
+  background-color: #28527A;
+  border-radius: 2rem;
+  padding: 0.5rem 2rem;
+}
+
+.btn-primary-1:hover {
+  background-color: #537CD9;
+}
+
+
+
+
+
+/* Footer */
 .sosmed {
   padding-top: 3rem;
   padding-bottom: 0.1rem;
