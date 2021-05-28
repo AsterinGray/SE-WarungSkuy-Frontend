@@ -207,6 +207,44 @@ body {
   }
 }
 
+/* Benefit */
+.benefit {
+  padding: 6rem 2rem;
+  background-color: #F5F5F5;
+}
+
+.benefit-item img {
+  width: 70%;
+}
+
+.benefit-item img:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(8px 8px 10px #F4D160);
+}
+
+.tabs-image img {
+  width: 100%;
+}
+
+@media all and (max-width: 575.98px) {
+  .benefit {
+    padding: 3rem 1rem;
+    background-color: #F5F5F5;
+  }
+  
+  .benefit-item img {
+    width: 70%;
+  }
+  
+  .benefit-item img:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(4px 4px 5px #F4D160);
+  }
+  
+  .tabs-image img {
+    width: 100%;
+  }
+}
 
 /* Footer */
 .sosmed {
