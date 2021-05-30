@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Form Pendanaan </title>
+    <link rel="stylesheet" href="../assets/libraries/bootstrap/bootstrap.min.css">
+    <title> Pengajuan Peminjaman 1 (Logged) </title>
+    <link rel="stylesheet" href="../assets/libraries/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/common/header.css">
+    <link rel="stylesheet" href="../css/common/footer.css">
+    <link rel="stylesheet" href="../css/pengajuanPeminjaman.css">
+</head>
+<body>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../pages/home.html">
+            <img src="../assets/images/common/logo.png" alt=""  class="d-inline-block align-text-top">
+            Warung Skuy
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Col-auto -->
+          <div class="col-auto">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="#"> Pendanaan </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"> Peminjaman </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"> Cara Kerja </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-account" href="#"> Username </a>
+                  </li>
+                <button type="button" class="btn btn-secondary"> Keluar </button>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- Form Pengajuan Peminjaman -->
+        <section class="form-pengajuan-peminjaman">
+            <h1 class="container-title text-center"> Pengajuan Peminjaman </h1>
+            <form action="">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-8 form-field">
+                            <label for="judul-peminjaman" class="form-label"> Judul Peminjaman </label>
+                            <input type="text" class="form-control" id="judul-peminjaman" aria-describedby="textHelp">
+                            <div id="textHelp" class="form-text"> Bantuan Usaha </div>
+                        </div>  
+                        <div class="col-lg-4 form-field">
+                            <label for="tenor" class="form-label"> Tenor </label>
+                            <input type="text" class="form-control" id="tenor" aria-describedby="textHelp">
+                            <div id="textHelp" class="form-text"> n bulan / n tahun </div>
+                        </div>  
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 form-field">
+                            <label for="mulai-peminjaman" class="form-label"> Mulai Peminjaman </label>
+                            <input type="date" class="form-control" id="mulai-peminjaman" aria-describedby="textHelp">
+                            <div id="textHelp" class="form-text"> Tanggal awal mulai peminjaman </div>
+                        </div>  
+                        <div class="col-lg-6 form-field">
+                            <label for="akhir-peminjaman" class="form-label"> Akhir Peminjaman </label>
+                            <input type="date" class="form-control" id="akhir-peminjaman" aria-describedby="textHelp">
+                            <div id="textHelp" class="form-text"> Tanggal batas akhir dari peminjaman </div>
+                        </div>    
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-8 form-field">
+                            <label for="nominal-peminjaman" class="form-label"> Nominal Peminjaman </label>
+                            <input type="number" class="form-control" id="nominal-peminjaman" aria-describedby="textHelp">
+                            <div id="textHelp" class="form-text"> Dalam Rupiah </div>
+                        </div>  
+                        <div class="col-lg-4 form-field">
+                            <label for="bunga-efektif" class="form-label"> Bunga Efektif </label>
+                            <input type="number" class="form-control" id="bunga-efektif" aria-describedby="textHelp">
+                            <div id="textHelp" class="form-text"> Persentase (%) </div>
+                        </div>  
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 form-field">
+                            <label for="alasan-peminjaman" class="form-label"> Alasan Peminjaman </label>
+                            <input type="text" class="form-control" id="alasan-peminjaman" aria-describedby="textHelp">
+                            <div id="textHelp" class="form-text"> Ketik dengan jelas dan lengkap </div>
+                        </div>    
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 form-field">
+                            <label for="keterangan-usaha" class="form-label"> Keterangan Usaha </label>
+                            <input type="text" class="form-control" id="keterangan-usaha" aria-describedby="textHelp">
+                            <div id="textHelp" class="form-text"> Ketik dengan jelas dan lengkap </div>
+                        </div>    
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-8 form-field">
+                            <label for="domisili" class="form-label"> Domisili </label>
+                            <input type="text" class="form-control" id="domisili" aria-describedby="textHelp">
+                            <div id="textHelp" class="form-text"> Provinsi Saat Ini </div>
+                        </div>  
+                        <div class="col-lg-4 form-field">
+                            <label for="tahun-rintis" class="form-label"> Tahun Rintis </label>
+                            <input type="number" class="form-control" id="tahun-rintis" aria-describedby="textHelp">
+                            <div id="textHelp" class="form-text"> YYYY </div>
+                        </div>  
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 form-field">
+                            <label for="alamat-usaha" class="form-label"> Alamat atau Lokasi Usaha </label>
+                            <input type="text" class="form-control" id="alamat-usaha" aria-describedby="textHelp">
+                            <div id="textHelp" class="form-text"> Ketik dengan jelas dan lengkap </div>
+                        </div>    
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 form-field">
+                            <label for="pendapatan-kotor-bulanan" class="form-label"> Pendapatan Kotor Per Bulan dari Usaha </label>
+                            <input type="number" class="form-control" id="pendapatan-kotor-bulanan" aria-describedby="textHelp">
+                            <div id="textHelp" class="form-text"> Dalam Rupiah </div>
+                        </div>  
+                        <div class="col-lg-6 form-field">
+                            <label for="modal-usaha" class="form-label"> Modal Usaha </label>
+                            <input type="number" class="form-control" id="modal-usaha" aria-describedby="textHelp">
+                            <div id="textHelp" class="form-text"> Dalam Rupiah </div>
+                        </div>    
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 form-field">
+                            <label for="pendapatan-bersih-bulanan" class="form-label"> Pendapatan Bersih Per Bulan dari Usaha </label>
+                            <input type="number" class="form-control" id="pendapatan-bersih-bulanan" aria-describedby="textHelp">
+                            <div id="textHelp" class="form-text"> Dalam Rupiah </div>
+                        </div>  
+                        <div class="col-lg-6 form-field">
+                            <label for="foto-usaha" class="form-label"> Foto Usaha </label>
+                            <input type="file" class="form-control" id="foto-usaha" aria-describedby="textHelp">
+                            <div id="textHelp" class="form-text"> Unggah Gambar </div>
+                        </div>    
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 form-field text-center">
+                            <input type="checkbox" class="in" id="aggrement">
+                            <label for="aggrement" class="aggrement-label"> Setuju dengan syarat dan ketentuan yang berlaku </label>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 text-center">
+                        <button type="submit" class="btn btn-primary"> Proses Peminjaman </button>
+                    </div>
+                </div>
+            </form>
+        </section>
+        <!-- Footer -->
+        <footer class="bg-dark text-white text-center">
+            <div class="sosmed">
+              <div class="col-sm-12 sosmed-text"> Media Sosial Kami </div>
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 mt-5 mb-5">
+                  <ul class="list-unstyled list-inline social text-center">
+                    <li class="list-inline-item">
+                      <a href="https://www.twitter.com">
+                        <i class="fa fa-twitter">
+                          <img src="../assets/images/common/round_twitter.png" alt="">
+                          <div class="fa-text">
+                            Instagram
+                          </div>
+                        </i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="https://www.linkedin.com">
+                        <i class="fa fa-linkedin">
+                          <img src="../assets/images/common/round_linkedIn.png" alt="">
+                          <div class="fa-text">
+                            Linkedin
+                          </div>
+                        </i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="https://www.instagram.com">
+                        <i class="fa fa-instagram">
+                          <img src="../assets/images/common/round_instagram.png" alt="">
+                          <div class="fa-text">
+                            Instagram
+                          </div>
+                        </i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="https://www.youtube.com">
+                        <i class="fa fa-youtube">
+                          <img src="../assets/images/common/round_youtube.png" alt="">
+                          <div class="fa-text">
+                            Youtube
+                          </div>
+                        </i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="https://www.facebook.com">
+                        <i class="fa fa-facebook">
+                          <img src="../assets/images/common/round_facebook.png" alt="">
+                          <div class="fa-text">
+                            Facebook
+                          </div>
+                        </i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <hr>
+              </div>
+              
+              <!--copyright text-->
+              <p class="text-center copyright">Copyright @2021 Warung Skuy Company. All Rights Reserved </p>
+            </div>
+          </footer>
+</body>
+<script src="../assets/libraries/jquery/jquery.min.js"></script>
+<script src="../assets/libraries/bootstrap/bootstrap.min.js"></script>
+</html>
