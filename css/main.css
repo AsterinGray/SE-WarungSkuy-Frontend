@@ -36,3 +36,17 @@
 .pendanaan .pendanaan-none {
   color: gray;
 }
+
+.eclipse-pill {
+  background-color: white;
+  border-radius: 50px;
+}
+
+.eclipse-pill .content {
+  padding: 1rem 0;
+}
+
+.eclipse-pill .number {
+  background-color: #8ac4d0;
+  border-radius: 50px 0 0 50px;
+}
