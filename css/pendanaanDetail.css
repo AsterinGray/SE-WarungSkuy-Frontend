@@ -1,0 +1,146 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+  background-color: #F5F5F5;
+}
+
+.business-banner {
+    padding: 4rem 4rem;
+    background-color: #FBEEAC;
+}
+
+.business-banner-info {
+    padding: 2rem 0rem;
+}
+
+.business-banner-headline {
+    padding: 2rem;
+}
+
+.header-photo {
+    padding: 2rem 0rem;
+}
+
+.text-muted {
+    padding: 2rem;
+}
+
+.fs-2 {
+    font-size: 40px;
+    padding: 0rem 1rem;
+}
+
+.fs-4 {
+    font-size: 27px;
+    padding: 0rem 1rem;
+}
+
+.fs-5 {
+    font-size: 20px;
+    padding: 0rem 1rem;
+}
+
+.fs-6 {
+    font-size: 17px;
+    padding: 0rem 1rem;
+}
+
+.fs-7 {
+    font-size: 12px;
+    padding: 0rem 1rem;
+}
+
+.fw-bold {
+    font-weight: bold;
+}
+
+.ranks {
+    background-color: white;
+    border-radius: 1.5rem;
+    color: green;
+}
+
+.data-view {
+    color:blue;
+    font-style: italic;
+}
+
+.btn-primary {
+    padding: 0.4rem 4rem;
+    background-color: #28527A;
+    border-radius: 1rem;
+}
+
+.btn-primary:hover {
+    background-color: #537CD9;
+}
+
+.box-invest {
+    margin: 3rem 2rem;
+    border-radius: 1rem;
+    background-color: #F4D160;
+    align-items: center;
+}
+
+.info-box {
+    align-items: center;
+    padding-top: 1.5rem;
+}
+
+.text-area {
+    padding: 1.5rem ;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: white;
+    color: black !important;
+    font-weight: bold;
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    border-left: 6px solid  #DFE2E7;
+    border-right: 6px solid  #DFE2E7;
+    border-top: 6px solid #DFE2E7;
+    transform: scale(1.1);
+}
+
+.tab-detail {
+    padding: 3rem 5rem;
+    background-color: white;
+}
+
+.nav-tabs .nav-link {
+    background-color: #FBEEAC;
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    color: black !important;
+    font-weight: normal;
+    border: 6px solid #FBEEAC;
+    padding: 1rem 4rem;
+}
+
+.business-info-area {
+    width: 90%;
+    margin: 5rem 5rem;
+}
+
+.calculator-box {
+    padding: 1rem 2rem;
+    background-color: #cecece;
+    border-radius: 2rem;
+}
+
+.btn-warning {
+    padding: 0.5rem 3rem;
+    border-radius: 2rem;
+    color: black;
+    background-color: #FBEEAC;
+}
+
+.calculator-textbox {
+    border-radius: 1rem;
+    width: 90%;
+    height: 3rem;
+    border-color: none;
+}
