@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Warung Skuy </title>
+    <link rel="stylesheet" href="../assets/libraries/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/common/header.css">
+    <link rel="stylesheet" href="../css/common/footer.css">
+    <link rel="stylesheet" href="../css/pendanaanDetail.css">
+</head>
+<body>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../pages/home.html">
+            <img src="../assets/images/common/logo.png" alt=""  class="d-inline-block align-text-top">
+            Warung Skuy
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Col-auto -->
+          <div class="col-auto">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="#"> Pendanaan </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"> Peminjaman </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"> Cara Kerja </a>
+                </li>
+                <button type="button" class="btn btn-secondary"> Masuk </button>
+                <button type="button" class="btn btn-secondary"> Daftar </button>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </nav>
+    <!-- Business Banner -->
+    <div class="container-fluid business-banner text-center">
+        <div class="row">
+            <!-- Business Photo -->
+            <div class="col-lg-5 header-photo">
+                <img src="../assets/images/common/Business-image/business-photo.jpeg" alt="" width="70%">
+            </div>
+            <!-- Business Header -->
+            <div class="col-lg-7 business-banner-info">
+                <div class="row text-center business-banner-headline">
+                    <div class="col-lg-3 col-xs-3">
+                        <label for="" class="fs-2 ranks">
+                            Rank
+                        </label>
+                    </div>
+                    <div class="col-lg-9 col-xs-9">
+                        <label for="" class="fs-2">
+                            Business Title Here!
+                        </label>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-lg-12 progress-view">
+                        <p class="text-muted">
+                            Telah terkumpul dana sebesar <label class="data-view" for=""> persentase </label>% dengan total Rp<label class="data-view" for=""> Nominal Yang Sudah Dipinjamkan </label>.
+                        </p>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-lg-5">
+                        <p class="fs-5"> Jumlah pinjaman </p>
+                        <p class="fs-5 fw-bold"> Rp<label class="data-view" for=""> Nominal Target Pinjaman </label>,- </p>
+                    </div>
+                    <div class="col-lg-4">
+                        <p class="fs-5"> Bunga Efektif </p>
+                        <p class="fs-5 fw-bold"> <label class="data-view" for="">Persentase</label>% </p>
+                    </div>
+                    <div class="col-lg-3">
+                        <p class="fs-5"> Tenor </p>
+                        <p class="fs-5 fw-bold"> <label class="data-view" for=""> lama </label> Bulan </p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- Input Nominal Investasi -->
+    <div class="container-fluid text-center">
+        <div class="row box-nominal-input">
+            <div class="col-lg-12 info-box text-center">
+                <p class="fs-6"> Dana yang sudah terkumpul saat ini </p>
+                <p class="fs-4"> Rp <label for="" class="data-view"> Nominal Yang Sudah Dipinjamkan </label>,- </p>
+                <br>
+                <p class="fs-4 text-left fw-bold txt-pdl"> Masukan Nominal Dana yang anda ingin berikan </p>
+                <div class="input-calculation text-center">
+                    <div class="mb-3">
+                        <input type="number" class="calculator-textbox" id="" aria-describedby="numberHelp" placeholder="10000000">
+                        <div id="numberHelp" class="form-text text-left txt-pdl"> Dalam Rupiah </div>
+                      </div>
+                </div>                
+                <div class="col-lg-12 info-box">
+                    <a class="btn btn-primary fs-4" href="../pages/pembayaranPendanaan.htm" role="button"> Konfirmasi Jumlah </a>
+                    <p class="fs-6"> Minimum nominal dana yang diinvestasikan adalah Rp100.000,- </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center">
+        <div class="sosmed">
+          <div class="col-sm-12 sosmed-text"> Media Sosial Kami </div>
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 mt-5 mb-5">
+              <ul class="list-unstyled list-inline social text-center">
+                <li class="list-inline-item">
+                  <a href="https://www.twitter.com">
+                    <i class="fa fa-twitter">
+                      <img src="../assets/images/common/round_twitter.png" alt="">
+                      <div class="fa-text">
+                        Instagram
+                      </div>
+                    </i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="https://www.linkedin.com">
+                    <i class="fa fa-linkedin">
+                      <img src="../assets/images/common/round_linkedIn.png" alt="">
+                      <div class="fa-text">
+                        Linkedin
+                      </div>
+                    </i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="https://www.instagram.com">
+                    <i class="fa fa-instagram">
+                      <img src="../assets/images/common/round_instagram.png" alt="">
+                      <div class="fa-text">
+                        Instagram
+                      </div>
+                    </i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="https://www.youtube.com">
+                    <i class="fa fa-youtube">
+                      <img src="../assets/images/common/round_youtube.png" alt="">
+                      <div class="fa-text">
+                        Youtube
+                      </div>
+                    </i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="https://www.facebook.com">
+                    <i class="fa fa-facebook">
+                      <img src="../assets/images/common/round_facebook.png" alt="">
+                      <div class="fa-text">
+                        Facebook
+                      </div>
+                    </i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <hr>
+          </div>
+          
+          <!--copyright text-->
+          <p class="text-center copyright">Copyright @2021 Warung Skuy Company. All Rights Reserved </p>
+        </div>
+      </footer>
+</body>
+<script src="../assets/libraries/jquery/jquery.min.js"></script>
+<script src="../assets/libraries/bootstrap/bootstrap.min.js"></script>
+</html>
